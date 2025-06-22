@@ -1,0 +1,29 @@
+.login-type-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login-type-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 14px;
+}
+
+.login-type-btn.active {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+.instructions {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}

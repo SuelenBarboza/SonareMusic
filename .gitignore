@@ -1,0 +1,8 @@
+/uploads/*
+!/uploads/.gitkeep
+*.mp3
+*.wav
+*.sql
+*.zip
+.DS_Store
+Thumbs.db
