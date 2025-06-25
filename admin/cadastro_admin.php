@@ -100,14 +100,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <input type="password" id="confirmar_senha" name="confirmar_senha" class="form-control" required minlength="3">
             </div>
             
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <label for="nivel_acesso">Nível de Acesso</label>
                 <select id="nivel_acesso" name="nivel_acesso" class="form-control" required>
                     <option value="basico">Básico</option>
                     <option value="medio">Médio</option>
                     <option value="alto">Alto</option>
                 </select>
-            </div>
+            </div> -->
             
             <button type="submit" class="btn">Cadastrar Administrador</button>
             <a href="../login.php" class="btn btn-outline">Voltar</a>
